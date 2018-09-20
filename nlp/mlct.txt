@@ -1,0 +1,19 @@
+Hi Suvrat, 
+
+We made an AI model at JPMorganChase touted as game changer for credit risk with prediction accuracy around 96%
+
+1. It grades (AA+ thru C) companies based on their financial ratios
+
+2. It can project portfolio performance in response to macro-economic scenarios
+	for ex: Automobile book response vs CCAR Baseline FED-AUTO-Sales projection.
+
+
+I'll be glad to speak with you how we can leverage use-case and datasets to created immediate value in your organization.
+
+
+-Thanks,
+
+Dhan Elamathi |adbanalytics.com |(551) 226-9540| 
+
+
+
