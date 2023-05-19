@@ -313,5 +313,25 @@ outDfObj['totWordsMasterList'] = outDfObj['totWordsMasterList'].astype(int)
 ################## end #############################################################################################################################################
 
 
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+
+data = [go.Scatter(x=[10**i for i in range(10)], y=[i for i in range(10)], mode='lines')]
+layout = go.Layout(xaxis_type='log')
+
+fig = make_subplots(rows=1, cols=1)
+fig.add_trace(data[0], row=1, col=1)
+fig.update_layout(layout)
+
+fig.update_xaxes(
+    rangeslider=dict(
+        visible=True,
+        range=[1, 500000],
+        type='log',
+    ),
+    dtick=2,  # Set dtick to 2 for a tick every 100 units in log scale
+)
+
+fig.show()
 
 
